@@ -1,0 +1,26 @@
+Passo a Passo(Ciclo Básico): 
+
+GitBash
+
+git clone -> (URL do Site do repositório)
+Entra na pasta (cd Desktop ...) -> git status
+git add -> nomeDoArquivo
+gitstatus novamente
+git commit -m "(mensagem do commit, sintetiza as alterações)"
+git log <- mostra a arvore de commits(data, autor e o 'cpf' do commit)
+git push origin master (envia minhas alterações pro repositório remoto, faz o login no github) 
+
+--------------------------------------------------------------------------------------------------------------------
+-m (serve para dar a opção de criação de uma mensagem) <- Flag
+git push <- Enviando commits para o repositório remoto
+git status <- verificando modificações
+git commit <- Criando commit com o conteudo 
+git add .   <- (Adiciona tudo de uma vez)
+-------------------------------------------------------------------------------------------------------------------
+
+TRABALHANDO COM BRANCHES:
+
+git branch (mostra as branches)
+git checkout -b Nome (cria novas branches)
+git branch -D Nome (Exclui a branch)
+
